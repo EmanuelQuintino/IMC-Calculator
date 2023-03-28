@@ -11,9 +11,10 @@
 
 body {
     height: 100vh;
-
     font-size: 1.6rem;
     color: white;
+    display: grid;
+    place-content: center;
 
     background-image: url('./images/background-img2.jpg');
     background-position: center;
@@ -25,13 +26,11 @@ body {
 
 .container {
     padding: 1.6rem;
-    display: grid;
-    place-content: center;
 }
 
 .container-calculator {
     width: 32.0rem;
-    margin: 9.2rem auto 0;
+    margin: 7.2rem auto 0;
     padding: 3.2rem 1.6rem;
 
 
