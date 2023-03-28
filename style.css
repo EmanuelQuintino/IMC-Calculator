@@ -25,12 +25,15 @@ body {
 
 .container {
     padding: 1.6rem;
+    display: grid;
+    place-content: center;
 }
 
 .container-calculator {
     width: 32.0rem;
-    margin: 7.2rem auto 0;
+    margin: 9.2rem auto 0;
     padding: 3.2rem 1.6rem;
+
 
     border-radius: .8rem;
 
@@ -84,13 +87,8 @@ aside {
     text-align: center;
 }
 
-aside h2 {
-    margin-top: 2.4rem;
-    font-size: 2.4rem;
-}
-
 aside p {
-    width: 19.0rem;
+    width: 20.0rem;
     margin: 1.6rem auto;
 
     font-size: 2.4rem;
@@ -126,6 +124,10 @@ aside p {
 
     display: grid;
     place-content: center;
+}
+
+.modal p {
+    margin-top: 1.2rem;
 }
 
 .close-button {
